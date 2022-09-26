@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BorderClipImage.MainPage">
+
+    <ContentPage.Content>
+        <Border VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="100" WidthRequest="100" Stroke="red" StrokeThickness="15">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="50"/>
+            </Border.StrokeShape>
+            <Border.Content>
+                <Grid>
+                    <Image Source="avatar1.png" Aspect="AspectFill"  />
+                </Grid>
+            </Border.Content>
+        </Border>
+    </ContentPage.Content>
+   
+
+</ContentPage>
