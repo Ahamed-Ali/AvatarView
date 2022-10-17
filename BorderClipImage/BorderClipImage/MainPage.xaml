@@ -4,7 +4,7 @@
              x:Class="BorderClipImage.MainPage">
 
     <ContentPage.Content>
-        <Border VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="100" WidthRequest="100" Stroke="red" StrokeThickness="15">
+        <Border VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="100" WidthRequest="100" Stroke="red" StrokeThickness="4">
             <Border.StrokeShape>
                 <RoundRectangle CornerRadius="50"/>
             </Border.StrokeShape>
